@@ -2,6 +2,7 @@
   "name": "anumati-police-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vvkk77.github.io/anumati-police-dashboard/",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
