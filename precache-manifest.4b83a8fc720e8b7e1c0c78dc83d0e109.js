@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f89613fb2db3eb06ba49862f44f9f5fe",
+    "revision": "a017ae637c9317afaa894765f4edb5b4",
     "url": "/anumati-admin-dashboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anumati-admin-dashboard/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "66df91c51c3aeaeb917e",
+    "revision": "695a0b745efd95cebdb8",
     "url": "/anumati-admin-dashboard/static/css/main.c97060e4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anumati-admin-dashboard/static/js/2.b270fc87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66df91c51c3aeaeb917e",
-    "url": "/anumati-admin-dashboard/static/js/main.9c384806.chunk.js"
+    "revision": "695a0b745efd95cebdb8",
+    "url": "/anumati-admin-dashboard/static/js/main.54b57978.chunk.js"
   },
   {
     "revision": "3e197426c1600da7cf7d",
