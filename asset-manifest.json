@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c97060e4.chunk.css",
+    "main.js": "/static/js/main.1e629713.chunk.js",
+    "main.js.map": "/static/js/main.1e629713.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.123643da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.123643da.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.58706d9e.chunk.js": "/static/js/2.58706d9e.chunk.js",
+    "static/js/2.58706d9e.chunk.js.map": "/static/js/2.58706d9e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.89fda8f05be85b02d54c8a17aa37142c.js": "/precache-manifest.89fda8f05be85b02d54c8a17aa37142c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/main.c97060e4.chunk.css.map": "/static/css/main.c97060e4.chunk.css.map",
+    "static/js/2.58706d9e.chunk.js.LICENSE.txt": "/static/js/2.58706d9e.chunk.js.LICENSE.txt",
+    "static/media/anumatiLogo.jpg": "/static/media/anumatiLogo.72e1b5bf.jpg",
+    "static/media/vertical-dots.svg": "/static/media/vertical-dots.03f1bbc5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.123643da.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.58706d9e.chunk.js",
+    "static/css/main.c97060e4.chunk.css",
+    "static/js/main.1e629713.chunk.js"
+  ]
+}
