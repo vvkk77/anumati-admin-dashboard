@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fbf2e9861e4289c2a4e8dee51374236",
+    "revision": "41fd845d062670354c1a72ae70887411",
     "url": "/anumati-police-dashboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anumati-police-dashboard/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "3cea23d2b9fc4399c798",
+    "revision": "309044cdc31d5dbadbc2",
     "url": "/anumati-police-dashboard/static/css/main.c97060e4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anumati-police-dashboard/static/js/2.58706d9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cea23d2b9fc4399c798",
-    "url": "/anumati-police-dashboard/static/js/main.4e187939.chunk.js"
+    "revision": "309044cdc31d5dbadbc2",
+    "url": "/anumati-police-dashboard/static/js/main.02dc862c.chunk.js"
   },
   {
     "revision": "5cd1111115401f87086f",

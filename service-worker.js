@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anumati-police-dashboard/precache-manifest.160259983b45101d353a74ff5a5e03aa.js"
+  "/anumati-police-dashboard/precache-manifest.6eb3bce70d45a82697214b8b1d61e4dd.js"
 );
 
 self.addEventListener('message', (event) => {

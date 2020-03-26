@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/anumati-police-dashboard/static/css/main.c97060e4.chunk.css",
-    "main.js": "/anumati-police-dashboard/static/js/main.4e187939.chunk.js",
-    "main.js.map": "/anumati-police-dashboard/static/js/main.4e187939.chunk.js.map",
+    "main.js": "/anumati-police-dashboard/static/js/main.02dc862c.chunk.js",
+    "main.js.map": "/anumati-police-dashboard/static/js/main.02dc862c.chunk.js.map",
     "runtime-main.js": "/anumati-police-dashboard/static/js/runtime-main.18c80846.js",
     "runtime-main.js.map": "/anumati-police-dashboard/static/js/runtime-main.18c80846.js.map",
     "static/css/2.de424728.chunk.css": "/anumati-police-dashboard/static/css/2.de424728.chunk.css",
     "static/js/2.58706d9e.chunk.js": "/anumati-police-dashboard/static/js/2.58706d9e.chunk.js",
     "static/js/2.58706d9e.chunk.js.map": "/anumati-police-dashboard/static/js/2.58706d9e.chunk.js.map",
     "index.html": "/anumati-police-dashboard/index.html",
-    "precache-manifest.160259983b45101d353a74ff5a5e03aa.js": "/anumati-police-dashboard/precache-manifest.160259983b45101d353a74ff5a5e03aa.js",
+    "precache-manifest.6eb3bce70d45a82697214b8b1d61e4dd.js": "/anumati-police-dashboard/precache-manifest.6eb3bce70d45a82697214b8b1d61e4dd.js",
     "service-worker.js": "/anumati-police-dashboard/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/anumati-police-dashboard/static/css/2.de424728.chunk.css.map",
     "static/css/main.c97060e4.chunk.css.map": "/anumati-police-dashboard/static/css/main.c97060e4.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.58706d9e.chunk.js",
     "static/css/main.c97060e4.chunk.css",
-    "static/js/main.4e187939.chunk.js"
+    "static/js/main.02dc862c.chunk.js"
   ]
 }
