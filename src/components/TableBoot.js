@@ -39,6 +39,7 @@ const TableBoot = (props) => {
 
     const onApprove = async (orderId) => {
         await api.approveOrder(orderId, 'ACCEPT');
+        await api.processOrder(orderId);
         props.onRefresh();
     };
 
