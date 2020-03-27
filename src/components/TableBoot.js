@@ -7,7 +7,7 @@ import DeclineModal from './DeclineModal';
 import downloadArrow from '../images/download-arrow.png';
 import verticalDots from '../images/vertical-dots.svg';
 import api from '../api';
-import { Dropdown } from 'react-bootstrap';
+import { Dropdown, Badge } from 'react-bootstrap';
 
 const ActionButton = React.forwardRef(({ children, onClick }, ref) => (
     <img
@@ -44,7 +44,7 @@ const TableBoot = (props) => {
     };
 
     const Orders = props.rows.map((item, index) => {
-        let statusClass = 'status center';
+        let statusClass = 'status';
 
         if (item.orderStatus) {
             statusClass += ` ${item.orderStatus.toLowerCase()}`;
@@ -53,8 +53,12 @@ const TableBoot = (props) => {
         return (
             <tr key={index}>
                 <td>{item.id}</td>
-                <td>{item.orderType}</td>
-                <td className='right'>{item.requestCount}</td>
+                <td>
+                    <Badge variant={item.orderType == 'person' ? 'primary' : 'dark'}>
+                        {item.orderType.toUpperCase()}
+                    </Badge>
+                </td>
+                <td className='center'>{item.requestCount}</td>
                 <td>{formatDate(item.createdAt)}</td>
                 <td className={statusClass}>{item.orderStatus}</td>
                 <td>{item['pdfUrl'] ? <img src={downloadArrow} alt='Download' /> : null}</td>
@@ -82,10 +86,10 @@ const TableBoot = (props) => {
                     <tr>
                         <td>#</td>
                         <td>Type</td>
-                        <td>No of Passes</td>
+                        <td className='center'>No of Passes</td>
                         <td>Raised on</td>
-                        <td>Status</td>
-                        <td widtd='300'>Download</td>
+                        <td className=''>Status</td>
+                        <td width='300'>Download</td>
                         <td></td>
                     </tr>
                 </thead>

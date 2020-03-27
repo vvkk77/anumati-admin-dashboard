@@ -9,6 +9,7 @@ class ListAllRequest extends React.Component {
 
         this.state = {
             orderList: [],
+            error: null,
         };
     }
 
@@ -23,45 +24,22 @@ class ListAllRequest extends React.Component {
             if (response.status === 200) {
                 this.setState({ orderList: response.data.orders });
             } else {
-                this.createStaticData();
             }
         } catch (error) {
-            this.setState({ fetchError: error.toString() });
-            this.createStaticData();
+            this.setState({ error: error.toString() });
         }
     };
 
-    //placeholder data
-    createStaticData = () => {
-        this.setState({
-            orderList: [
-                {
-                    id: '',
-                    accountId: '',
-                    orderStatus: '',
-                    orderType: '',
-                    requestCount: '100',
-
-                    district: 'Bengaluru',
-                    type: 'VEHICLE',
-                    status: 'Approved',
-                    createdAt: '25/03/2020 | 07:01 am',
-                    pdfUrl:
-                        'https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200308-sitrep-48-covid-19.pdf',
-                },
-                {
-                    requestCount: '300',
-                    district: 'Bengaluru',
-                    type: 'PERSON',
-                    status: 'Pending',
-                    createdAt: '30/04/2020 | 10:01 pm',
-                    pdfUrl: null,
-                },
-            ],
-        });
-    };
-
     render() {
+        if (this.state.error) {
+            return (
+                <div
+                    style={{ height: '500px' }}
+                    className='d-flex justify-content-center align-items-center'>
+                    <h1 className='text-danger'>Unauthorised access</h1>
+                </div>
+            );
+        }
         return (
             <div className='padding-46'>
                 <TableBoot onRefresh={this.fetchAllOrders} rows={this.state.orderList} />
