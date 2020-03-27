@@ -5,8 +5,6 @@ const BASE_URL = 'https://epass.egovernments.org:8091';
 axios.defaults.baseURL = BASE_URL;
 axios.defaults.headers['content-type'] = 'application/json';
 
-const ADMIN_USER_TOKEN = 'riczfcdtjtvrzwupoauehxvoajtjpsqlvesicif';
-
 export default {
     signIn(email, password) {
         return axios.post('/signin', { email, password });
@@ -18,7 +16,7 @@ export default {
 
     getAllOrders() {
         return axios.post('/getAllOrders', {
-            authToken: ADMIN_USER_TOKEN,
+            authToken: localStorage.getItem('auth'),
         });
     },
 
@@ -26,14 +24,14 @@ export default {
         return axios.post('/approveOrder', {
             orderID,
             orderAction,
-            authToken: ADMIN_USER_TOKEN,
+            authToken: localStorage.getItem('auth'),
         });
     },
 
     processOrder(orderID) {
         return axios.post('/processOrder', {
             orderID,
-            authToken: ADMIN_USER_TOKEN,
+            authToken: localStorage.getItem('auth'),
         });
     },
 };
