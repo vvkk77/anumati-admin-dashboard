@@ -2,6 +2,7 @@ import React from 'react';
 
 import TableBoot from './TableBoot';
 import api from '../api';
+import sortBy from 'lodash.sortby';
 
 class ListAllRequest extends React.Component {
     constructor(props) {
@@ -22,7 +23,7 @@ class ListAllRequest extends React.Component {
             const response = await api.getAllOrders();
 
             if (response.status === 200) {
-                this.setState({ orderList: response.data.orders });
+                this.setState({ orderList: sortBy(response.data.orders, 'createdAt').reverse() });
             } else {
             }
         } catch (error) {

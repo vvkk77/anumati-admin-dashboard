@@ -9,6 +9,7 @@
     "cra-template": "1.0.3",
     "dayjs": "^1.8.23",
     "formik": "^2.1.4",
+    "lodash.sortby": "^4.7.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
