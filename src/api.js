@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://13.233.33.10:8091';
+const BASE_URL = 'https://epass.egovernments.org:8091';
 
 axios.defaults.baseURL = BASE_URL;
 axios.defaults.headers['content-type'] = 'application/json';
