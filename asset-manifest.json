@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/anumati-admin-dashboard/static/css/main.7cfded77.chunk.css",
-    "main.js": "/anumati-admin-dashboard/static/js/main.96775cde.chunk.js",
-    "main.js.map": "/anumati-admin-dashboard/static/js/main.96775cde.chunk.js.map",
+    "main.css": "/anumati-admin-dashboard/static/css/main.66e3f475.chunk.css",
+    "main.js": "/anumati-admin-dashboard/static/js/main.ddc3c13b.chunk.js",
+    "main.js.map": "/anumati-admin-dashboard/static/js/main.ddc3c13b.chunk.js.map",
     "runtime-main.js": "/anumati-admin-dashboard/static/js/runtime-main.83706527.js",
     "runtime-main.js.map": "/anumati-admin-dashboard/static/js/runtime-main.83706527.js.map",
     "static/css/2.de424728.chunk.css": "/anumati-admin-dashboard/static/css/2.de424728.chunk.css",
-    "static/js/2.6493c6f8.chunk.js": "/anumati-admin-dashboard/static/js/2.6493c6f8.chunk.js",
-    "static/js/2.6493c6f8.chunk.js.map": "/anumati-admin-dashboard/static/js/2.6493c6f8.chunk.js.map",
+    "static/js/2.438140bc.chunk.js": "/anumati-admin-dashboard/static/js/2.438140bc.chunk.js",
+    "static/js/2.438140bc.chunk.js.map": "/anumati-admin-dashboard/static/js/2.438140bc.chunk.js.map",
     "index.html": "/anumati-admin-dashboard/index.html",
-    "precache-manifest.821114aa84a4f5760a2b29db02616de3.js": "/anumati-admin-dashboard/precache-manifest.821114aa84a4f5760a2b29db02616de3.js",
+    "precache-manifest.530fd61ef0b2af27f33662d0e7adcfe4.js": "/anumati-admin-dashboard/precache-manifest.530fd61ef0b2af27f33662d0e7adcfe4.js",
     "service-worker.js": "/anumati-admin-dashboard/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/anumati-admin-dashboard/static/css/2.de424728.chunk.css.map",
-    "static/css/main.7cfded77.chunk.css.map": "/anumati-admin-dashboard/static/css/main.7cfded77.chunk.css.map",
-    "static/js/2.6493c6f8.chunk.js.LICENSE.txt": "/anumati-admin-dashboard/static/js/2.6493c6f8.chunk.js.LICENSE.txt",
+    "static/css/main.66e3f475.chunk.css.map": "/anumati-admin-dashboard/static/css/main.66e3f475.chunk.css.map",
+    "static/js/2.438140bc.chunk.js.LICENSE.txt": "/anumati-admin-dashboard/static/js/2.438140bc.chunk.js.LICENSE.txt",
     "static/media/anumatiLogo.jpg": "/anumati-admin-dashboard/static/media/anumatiLogo.72e1b5bf.jpg",
     "static/media/vertical-dots.svg": "/anumati-admin-dashboard/static/media/vertical-dots.03f1bbc5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.83706527.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.6493c6f8.chunk.js",
-    "static/css/main.7cfded77.chunk.css",
-    "static/js/main.96775cde.chunk.js"
+    "static/js/2.438140bc.chunk.js",
+    "static/css/main.66e3f475.chunk.css",
+    "static/js/main.ddc3c13b.chunk.js"
   ]
 }
