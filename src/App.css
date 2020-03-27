@@ -1,3 +1,17 @@
+.full-screen-loader {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.full-screen-loader .spinner-border {
+    width: 5em;
+    height: 5em;
+}
+
 .login-form {
     margin: auto;
     display: block;
