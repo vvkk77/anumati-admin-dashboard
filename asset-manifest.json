@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/anumati-admin-dashboard/static/css/main.7cfded77.chunk.css",
-    "main.js": "/anumati-admin-dashboard/static/js/main.044eb868.chunk.js",
-    "main.js.map": "/anumati-admin-dashboard/static/js/main.044eb868.chunk.js.map",
+    "main.js": "/anumati-admin-dashboard/static/js/main.fd87f10f.chunk.js",
+    "main.js.map": "/anumati-admin-dashboard/static/js/main.fd87f10f.chunk.js.map",
     "runtime-main.js": "/anumati-admin-dashboard/static/js/runtime-main.83706527.js",
     "runtime-main.js.map": "/anumati-admin-dashboard/static/js/runtime-main.83706527.js.map",
     "static/css/2.de424728.chunk.css": "/anumati-admin-dashboard/static/css/2.de424728.chunk.css",
     "static/js/2.ba839efd.chunk.js": "/anumati-admin-dashboard/static/js/2.ba839efd.chunk.js",
     "static/js/2.ba839efd.chunk.js.map": "/anumati-admin-dashboard/static/js/2.ba839efd.chunk.js.map",
     "index.html": "/anumati-admin-dashboard/index.html",
-    "precache-manifest.c4f28a1c708fecee41b7cb862131d462.js": "/anumati-admin-dashboard/precache-manifest.c4f28a1c708fecee41b7cb862131d462.js",
+    "precache-manifest.97170d63d23fb2971e4723ef17fb6d10.js": "/anumati-admin-dashboard/precache-manifest.97170d63d23fb2971e4723ef17fb6d10.js",
     "service-worker.js": "/anumati-admin-dashboard/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/anumati-admin-dashboard/static/css/2.de424728.chunk.css.map",
     "static/css/main.7cfded77.chunk.css.map": "/anumati-admin-dashboard/static/css/main.7cfded77.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.ba839efd.chunk.js",
     "static/css/main.7cfded77.chunk.css",
-    "static/js/main.044eb868.chunk.js"
+    "static/js/main.fd87f10f.chunk.js"
   ]
 }
