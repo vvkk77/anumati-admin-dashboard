@@ -5,6 +5,7 @@ import FormErrorMessage from './FormErrorMessage';
 import Register from './Register';
 import '../Login.css';
 import api from '../api';
+import dayjs from 'dayjs';
 
 class Login extends React.Component {
     constructor(props) {
@@ -17,6 +18,11 @@ class Login extends React.Component {
     loginEval = async (params) => {
         const { email, password } = params;
         const { data } = await api.signIn(email, password);
+
+        localStorage.setItem('auth', data.authToken);
+        localStorage.setItem('accountID', data.accountID);
+        localStorage.setItem('organizationID', data.organizationID);
+        localStorage.setItem('expiry', dayjs(new Date()).add(1, 'day'));
 
         this.props.onLogin();
     };

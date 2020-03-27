@@ -10,9 +10,14 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            loggedIn: false,
+            loggedIn: this.checkLoginSession(),
         };
     }
+
+    checkLoginSession = () => {
+        const expiry = localStorage.getItem('expiry');
+        return localStorage.getItem('auth') && expiry && new Date(expiry) > Date.now();
+    };
 
     onLoginSuccess = async () => {
         this.setState({
@@ -39,11 +44,7 @@ class App extends React.Component {
             return (
                 <div>
                     <Header />
-                    <ListAllRequest
-                        organization={this.state.organization}
-                        accountId={this.state.accountId}
-                        authToken={this.state.authToken}
-                    />
+                    <ListAllRequest />
                 </div>
             );
         }

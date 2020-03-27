@@ -18,7 +18,7 @@ class ListAllRequest extends React.Component {
 
     fetchAllOrders = async () => {
         try {
-            const response = await api.getAllOrders(this.state.accountId, this.state.authToken);
+            const response = await api.getAllOrders();
 
             if (response.status === 200) {
                 this.setState({ orderList: response.data.orders });
