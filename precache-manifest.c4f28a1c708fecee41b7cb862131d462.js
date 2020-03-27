@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2debabbf22f192551a98bf883c9b1852",
+    "revision": "5b669b94ffb6eb63d494050ac6978d66",
     "url": "/anumati-admin-dashboard/index.html"
   },
   {
-    "revision": "ba28cb256c007139cea2",
+    "revision": "d6302119037cfe78e721",
     "url": "/anumati-admin-dashboard/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "73ab79436baa58780ada",
-    "url": "/anumati-admin-dashboard/static/css/main.c97060e4.chunk.css"
+    "revision": "36041cad2cd779232746",
+    "url": "/anumati-admin-dashboard/static/css/main.7cfded77.chunk.css"
   },
   {
-    "revision": "ba28cb256c007139cea2",
-    "url": "/anumati-admin-dashboard/static/js/2.b270fc87.chunk.js"
+    "revision": "d6302119037cfe78e721",
+    "url": "/anumati-admin-dashboard/static/js/2.ba839efd.chunk.js"
   },
   {
     "revision": "cacaf3f01dd3bd8237006f7c58951c1c",
-    "url": "/anumati-admin-dashboard/static/js/2.b270fc87.chunk.js.LICENSE.txt"
+    "url": "/anumati-admin-dashboard/static/js/2.ba839efd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73ab79436baa58780ada",
-    "url": "/anumati-admin-dashboard/static/js/main.dd8ac518.chunk.js"
+    "revision": "36041cad2cd779232746",
+    "url": "/anumati-admin-dashboard/static/js/main.044eb868.chunk.js"
   },
   {
     "revision": "3e197426c1600da7cf7d",
