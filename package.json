@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://vvkk77.github.io/anumati-admin-dashboard/",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "bootstrap": "^4.4.1",
     "cra-template": "1.0.3",
     "dayjs": "^1.8.23",
